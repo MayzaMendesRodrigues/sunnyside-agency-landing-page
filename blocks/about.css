@@ -1,0 +1,42 @@
+.about{
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    grid-template-rows: auto;
+}
+
+.about__container{
+
+width: 50%;
+}
+
+.about__title{
+     font-family:"Fraunces", Arial, Helvetica, sans-serif ;
+     color:  hsl(212, 27%, 19%);
+     font-size: 60px;
+    
+}
+
+.about__paragraph{
+    font-family: "Barlow", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+   color: hsl(213, 9%, 39%);
+   font-size: 18px;
+}
+
+.about__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} 
+
+.about__link{
+    font-size: 18px;
+    font-family:"Fraunces", Arial, Helvetica, sans-serif ;
+    font-weight: 900;
+    color:  hsl(212, 27%, 19%);
+    text-decoration: none;
+
+
+
+
+}

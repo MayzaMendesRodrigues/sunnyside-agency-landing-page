@@ -1,0 +1,16 @@
+.services{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+
+.service__item{
+    display: grid;
+    
+}
+
+.services__img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
