@@ -4,8 +4,17 @@
     
 }
 
-.service__item{
-    display: grid;
+.services__item{
+    position: relative;
+    
+}
+
+.services__text{
+    position: absolute;
+    top: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     
 }
 
@@ -13,4 +22,26 @@
     width: 100%;
     object-fit: cover;
     object-position: center;
+}
+
+.services__title{
+    font-family:"Fraunces", Arial, Helvetica, sans-serif ;
+    font-size: 55px;
+    margin: 0;
+    font-weight: 900;
+}
+
+.services__paragraph{
+    font-family: "Barlow", Arial, Helvetica, sans-serif;
+    max-width: 50%;
+    text-align: center;
+    font-size: 18px;
+    }
+
+.services__text-graphic{
+    color: hsl(167, 40%, 24%);
+}
+.services__text-photography{
+    color: hsl(198, 62%, 26%);
+
 }

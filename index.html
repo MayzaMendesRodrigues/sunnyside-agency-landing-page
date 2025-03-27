@@ -3,6 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Mayza Ynara">
+    <meta name="description" content="Confira minha solução para o desafio Sunnyside Agency Landing Page no Frontend Mentor. Desenvolvido com HTML, CSS e React para um design responsivo e moderno.">
+<meta name="keywords" content="Frontend Mentor, Sunnyside Agency, landing page, HTML, CSS, React, desenvolvimento web, UI/UX, responsivo, desafio Frontend Mentor">
     <!-- displays site properly based on user's device -->
 
     <link
@@ -55,9 +58,11 @@
           </li>
         </ul>
       </nav>
-
+<div class="header__content">
   <h1 class="header__title">We are creatives</h1>
   <img src="./images/icon-arrow-down.svg" class="header__img" alt="">
+</div>
+
 
 
     </header>
@@ -93,69 +98,83 @@
       </section>
 
       <section class="services" id="services">
-        <div class="service__item">
+        <div class="services__item">
           <img src="./images/desktop/image-graphic-design.jpg" alt="" class="services__img">
-          <h3 class="services__title">Graphic design</h3>
-          <p class="services__paragraph">
-            Graphic design Great design makes you memorable. We deliver artwork that
-            underscores your brand message and captures potential clients’ attention.</p>
+          <div class="services__text services__text-graphic">
+            <h3 class="services__title ">Graphic design</h3>
+            <p class="services__paragraph">
+           Great design makes you memorable. We deliver artwork that
+              underscores your brand message and captures potential clients’ attention.</p>
+          </div>
+
         </div>
-       <div class="service__item">
+       <div class="services__item">
         <img src="./images/desktop/image-photography.jpg" alt="" class="services__img">
-        <h3 class="services__title"> Photography </h3>
-        <p class="services__paragraph">
-          Photography Increase your credibility by getting the most stunning,
-    high-quality photos that improve your business image.</p>
+        <div class="services__text  services__text-photography">
+          <h3 class="services__title" > Photography </h3>
+          <p class="services__paragraph">
+          Increase your credibility by getting the most stunning,
+      high-quality photos that improve your business image.</p>
+        </div>
+
        </div>
       </section>
 
       <section class="testimonials">
         <h2 class="testimonials__title">Client testimonials </h2>
-        <div class="testemonial__item">
-          <img src="./images/image-emily.jpg" alt="" class="testemonial__client">
-          <p class="testemonial__text">
-            We put our trust in Sunnyside and they delivered, making sure our needs were
-           met and deadlines were always hit.</p>
-<p class="testemonial__name"> Emily R.</p>
-<p class="testemonial__role">Marketing Director</p>
+        <div class="testimonials__items">
+          <div class="testimonials__item">
+            <img src="./images/image-emily.jpg" alt="" class="testimonial__client">
+            <p class="testimonial__text">
+              We put our trust in Sunnyside and they delivered, making sure our needs were
+             met and deadlines were always hit.</p>
+  <p class="testimonial__name"> Emily R.</p>
+  <p class="testimonial__role">Marketing Director</p>
+          </div>
+  
+          <div class="testimonials__item">
+            <img src="./images/image-thomas.jpg" alt="" class="testimonial__client">
+            <p class="testimonial__text">
+              Sunnyside’s
+              enthusiasm coupled with their keen interest in our brand’s success made it a
+              satisfying and enjoyable experience.</p>
+  <p class="testimonial__name">  Thomas S. </p>
+  <p class="testimonial__role">Chief Operating Officer</p>
+          </div>
+  
+          <div class="testimonials__item">
+            <img src="./images/image-jennie.jpg" alt="" class="testimonial__client">
+            <p class="testimonial__text">
+              Incredible end result! Our sales increased over 400% when we worked with
+              Sunnyside. Highly recommended!</p>
+  <p class="testimonial__name">  Jennie F.</p>
+  <p class="testimonial__role">  Business Owner</p>
+          </div>
         </div>
-
-        <div class="testemonial__item">
-          <img src="./images/image-thomas.jpg" alt="" class="testemonial__client">
-          <p class="testemonial__text">
-            Sunnyside’s
-            enthusiasm coupled with their keen interest in our brand’s success made it a
-            satisfying and enjoyable experience.</p>
-<p class="testemonial__name">  Thomas S. </p>
-<p class="testemonial__role">Chief Operating Officer</p>
-        </div>
-
-        <div class="testemonial__item">
-          <img src="./images/image-jennie.jpg" alt="" class="testemonial__client">
-          <p class="testemonial__text">
-            Incredible end result! Our sales increased over 400% when we worked with
-            Sunnyside. Highly recommended!</p>
-<p class="testemonial__name">  Jennie F.</p>
-<p class="testemonial__role">  Business Owner</p>
-        </div>
+   
       </section>
 
       <section class="gallery" id="gallery">
-        <img src="./images/desktop/image-gallery-milkbottles.jpg" alt="" class="galerry__img"/>
-        <img src="./images/desktop/image-gallery-orange.jpg" alt="" class="galerry__img"/>        
-        <img src="./images/desktop/image-gallery-cone.jpg" alt="" class="galerry__img"/>
-        <img src="./images/desktop/image-gallery-sugarcubes.jpg" alt="" class="galerry__img"/>
+        <img src="./images/desktop/image-gallery-milkbottles.jpg" alt="" class="gallery__img"/>
+        <img src="./images/desktop/image-gallery-orange.jpg" alt="" class="gallery__img"/>        
+        <img src="./images/desktop/image-gallery-cone.jpg" alt="" class="gallery__img"/>
+        <img src="./images/desktop/image-gallery-sugarcubes.jpg" alt="" class="gallery__img"/>
       </section>
-    </main>
 
- About about
-    Projects Contact
+    </main>
+    <footer class="footer">
+      <img src="./images/logo.svg" alt="" class="footer__logo">
+      About about
+      Projects Contact
+    </footer>
+
+ 
 
     <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
+      >. Coded by <a href="#">Mayza Ynara</a>.
     </div>
   </body>
 </html>

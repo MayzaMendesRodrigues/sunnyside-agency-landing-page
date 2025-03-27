@@ -1,0 +1,9 @@
+.gallery{
+    display: flex;
+    overflow-x: hidden;
+}
+
+.gallery__img{
+   max-width: auto; 
+   width: 25%;
+}

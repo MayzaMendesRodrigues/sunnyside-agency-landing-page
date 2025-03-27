@@ -1,0 +1,71 @@
+.testimonials{
+    height: 80vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    
+    
+    
+}
+.testimonials__title{
+    display: flex;
+    justify-content: center;
+    font-family:"Fraunces", Arial, Helvetica, sans-serif ;
+    color:   hsl(232, 10%, 55%);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 80px;
+  
+
+}
+
+.testimonials__items{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+
+}
+
+.testimonials__item{
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+.testimonial__client{
+    border-radius: 100%;
+    width: 85px;
+    margin-bottom: 30px;
+}
+
+.testimonial__text{
+    font-size: 18px;
+    text-align: center;
+    font-family: "Barlow", Arial, Helvetica, sans-serif;
+   color:  hsl(213, 9%, 39%);
+   font-weight: 600;
+
+}
+
+.testimonial__name{
+    font-family:"Fraunces", Arial, Helvetica, sans-serif ;
+    color: hsl(212, 27%, 19%);
+    font-weight: 900;
+    margin-top: 50px;
+    
+}
+
+.testimonial__role{
+    font-family: "Barlow", Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-weight: 600;
+    color: hsl(210, 4%, 67%);
+
+}
+

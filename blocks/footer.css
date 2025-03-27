@@ -1,0 +1,10 @@
+.footer{
+    height: 45vh;
+    background-color: hsl(168, 54%, 61%);
+   
+}
+
+.footer__logo{
+    background-color: red;
+  ;
+}
