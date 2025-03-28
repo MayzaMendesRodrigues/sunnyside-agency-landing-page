@@ -5,6 +5,10 @@
     padding: 30px 80px 0 30px;
 }
 
+.navbar{
+    display: none;
+}
+
 .nav__logo{
     width:124px ;
     height: auto;
@@ -24,4 +28,15 @@
     font-size: 18px;
     text-decoration: none;
     color: hsl(0, 0%, 100%);
+}
+
+@media (max-width: 544px){
+    .nav__links{
+        display: none;
+    }
+
+    .navbar{
+        display: flex;
+        align-items: center;
+    }
 }

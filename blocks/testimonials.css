@@ -5,9 +5,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
-    
-    
+   
     
 }
 .testimonials__title{
@@ -67,5 +65,22 @@
     font-weight: 600;
     color: hsl(210, 4%, 67%);
 
+}
+
+@media(max-width: 1024px){
+    .testimonials{
+        height: 75vh;    
+    }
+
+}
+
+@media (max-width: 544px){
+    .testimonials{
+        height: 150vh;
+    }
+    .testimonials__items{
+        flex-direction: column;    
+    }
+    
 }
 

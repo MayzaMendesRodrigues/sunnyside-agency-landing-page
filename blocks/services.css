@@ -45,3 +45,26 @@
     color: hsl(198, 62%, 26%);
 
 }
+
+@media (max-width: 1024px){
+    .services__title{
+        font-size: 30px;
+    }
+    
+    .services__paragraph{
+        font-size: 16px;
+        max-width: 75%;
+
+        }
+        .services__text{
+            top: 50%;   
+        }
+    
+}
+
+@media (max-width: 544px){
+    .services{
+        display: flex;
+        flex-direction: column;
+    }
+}

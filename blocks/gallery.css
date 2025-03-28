@@ -7,3 +7,15 @@
    max-width: auto; 
    width: 25%;
 }
+
+@media(max-width: 544px) {
+    .gallery{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr
+    }
+    .gallery__img{
+        max-width: auto; 
+        width: 100%;
+     }
+}
