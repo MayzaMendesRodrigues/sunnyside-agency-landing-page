@@ -1,5 +1,4 @@
 .testimonials{
-    height: 80vh;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -16,6 +15,7 @@
     text-transform: uppercase;
     letter-spacing: 5px;
     margin-bottom: 80px;
+    font-size: 25px;
   
 
 }
@@ -69,14 +69,17 @@
 
 @media(max-width: 1024px){
     .testimonials{
-        height: 75vh;    
     }
 
 }
 
 @media (max-width: 544px){
     .testimonials{
-        height: 150vh;
+        margin: 50px auto ;
+    }
+
+    .testimonials__title{
+        font-size: 18px;
     }
     .testimonials__items{
         flex-direction: column;    
